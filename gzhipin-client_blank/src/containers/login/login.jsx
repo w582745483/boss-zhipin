@@ -22,7 +22,6 @@ class Login extends Component {
     }
     login=()=>{
         this.props.login(this.state)
-        //console.log(JSON.stringify(this.state))
     }
     render() {
         const{redirectTo,msg}=this.props
