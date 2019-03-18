@@ -19,6 +19,7 @@ class DashenInfo extends Component{
     save=()=>{
        
         this.props.UpdateUser(this.state)
+        console.log()
     }
     handleChange=(name,val)=>{
         this.setState({
